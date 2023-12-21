@@ -32,7 +32,6 @@ class BasketballGame
                Console.WriteLine("\nInvalid input. Press 'S' to shoot.");
                i--; // Decrement the counter to repeat this shot.
             }
-        }
         Console.WriteLine("\nGame Over!");
         Console.WriteLine("You made " + shotsMade + "out of " + totalShots + "shots");
         Console.ReadLine(); // Keeps the console window open until Enter is pressed.
